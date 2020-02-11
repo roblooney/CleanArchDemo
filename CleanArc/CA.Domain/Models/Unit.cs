@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CA.Domain.Models
+namespace CleanArc.Domain.Models
 {
-    class Unit
+    public class Unit
     {
         public int Id { get; set; }
         public int BcId { get; set; }
