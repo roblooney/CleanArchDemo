@@ -31,14 +31,13 @@ namespace CA.Mvc
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("CleanArchDefault")));
+            services.AddDbContext<BodyCorporateDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("BodyCorporateDbContext")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
-            services.AddRazorPages();
-            services.AddDbContext<BodyCorporateDbContext>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("BodyCorporateDbContext"));
-            });
+            services.AddRazorPages();            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,12 +56,9 @@ namespace CA.Mvc
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthentication();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
