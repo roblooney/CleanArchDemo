@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CleanArc.Domain.Interfaces
 {
-    public interface IDBRepository
+    public interface IBodyCorpRepository
     {
         IEnumerable<BodyCorporate> GetBodyCorporates();
     }

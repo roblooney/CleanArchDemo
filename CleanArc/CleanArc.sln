@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CA.Mvc", "CA.Mvc\CA.Mvc.csproj", "{AD84558D-2759-4145-ADD6-93779A03CDF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArc.Domain", "CA.Domain\CleanArc.Domain.csproj", "{53ED5832-417A-476B-8BAF-ACF3885CD7ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArc.Domain", "CA.Domain\CleanArc.Domain.csproj", "{53ED5832-417A-476B-8BAF-ACF3885CD7ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArc.Infra.Data", "CA.Infra.Data\CleanArc.Infra.Data.csproj", "{2C34151E-0BDC-4FE2-A6FB-7900A5C40C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArc.Infra.Data", "CA.Infra.Data\CleanArc.Infra.Data.csproj", "{2C34151E-0BDC-4FE2-A6FB-7900A5C40C7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArc.Applicarion", "CleanArc.Applicarion\CleanArc.Applicarion.csproj", "{8719A1EC-C0B4-4C8F-A444-73D8818DFF40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArc.Application", "CleanArc.Applicarion\CleanArc.Application.csproj", "{8719A1EC-C0B4-4C8F-A444-73D8818DFF40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
