@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArc.Application.Services
+namespace CleanArc.Application.Interfaces
 {
     public interface IBodyCorpService
     {
-        IEnumerable<BodyCorpViewModel> GetBodyCorpViewModel();
+        BodyCorpViewModel GetBodyCorpList();
     }
 }
