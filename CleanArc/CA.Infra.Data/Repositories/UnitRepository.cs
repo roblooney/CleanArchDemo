@@ -7,7 +7,7 @@ using System.Text;
 
 namespace CleanArc.Infra.Data.Repositories
 {
-    class UnitRepository : IUnitRepository
+    public class UnitRepository : IUnitRepository
     {
         private BodyCorporateDbContext _bcCtx;
 
